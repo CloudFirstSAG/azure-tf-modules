@@ -23,7 +23,7 @@ resource "azurerm_storage_account" "sa" {
   account_type = "${var.account_type}"
 }
 
-output "pri_blob_ep" {
+output "primary_blob_endpoint" {
   value = "${azurerm_storage_account.sa.primary_blob_endpoint}"
 }
 
