@@ -24,7 +24,7 @@ resource "azurerm_storage_account" "sa" {
 }
 
 output "primary_blob_endpoint" {
-  value = "${azurerm_storage_account.sa.primary_blob_endpoint}"
+  value = "xxxxxx"
 }
 
 output "name" {
